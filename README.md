@@ -23,7 +23,7 @@ python -B reliability.py
 python -B -m unittest -v
 ```
 
-The demo prints 12/12 expected ordinary scripted verdicts and four focused scenarios. Tests vary the stage, output correctness, stop evidence, final evidence and cleanup. Local verification used Windows with Python 3.10.11 and 3.14.7. GitHub Actions is configured for Windows and Linux with both Python series. Hosted CI remains unverified.
+The demo prints 12/12 expected ordinary scripted verdicts and four focused scenarios. Tests vary the stage, output correctness, stop evidence, final evidence and cleanup. Local verification used Windows with Python 3.10.11 and 3.14.7. GitHub Actions is configured for Windows and Linux with both Python series. [Hosted GitHub Actions CI](https://github.com/ryanlupardus/qa-reliability-case-study/actions/runs/45376595699) passed all four jobs on Windows and Linux with Python 3.10 and 3.14.
 
 The fixture demonstrates verdict logic. The historical implementation, campaign records, host behavior and natural defect frequency are outside its scope. [Contributions and AI assistance](CONTRIBUTIONS.md)
 
